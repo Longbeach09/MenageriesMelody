@@ -1,0 +1,61 @@
+.body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #242424;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    background-color: #242424;
+    width: 800px;
+    max-width: 70%;
+    /* height: 800px; */
+    padding: 10px;
+    border-radius: 5px;
+    border-radius: 8%;
+    justify-content: center;
+    /* box-shadow: 0 0 10px 2px; */
+
+}
+
+.btnGrid {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.optBtn {
+    background-color: #f93d3dd0;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: whitesmoke;
+    outline: none;
+    height: 5rem;
+}
+
+.musicBtn {
+    /* align-items: center; */
+    display: flex;
+    margin-top: 8rem;
+    margin-right: rem;
+
+}
+
+.optBtn:hover {
+    border-color: #242424;
+}
+
+.bigTxt {
+    color: #000;
+    font-size: 1.5rem;
+}
+
+.nxtBtn {
+    color: #62d25e;
+}

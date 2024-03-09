@@ -1,0 +1,26 @@
+.HomePage {
+    background-color: #242424;
+
+}
+
+.Header {
+    display: center;
+    text-align: center;
+    flex-direction: row;
+    /* margin-left: 25rem; */
+    /* color: ; */
+    font-size: x-large;
+    padding-top: 3rem;
+}
+
+.HomePgeBtn {
+    display: center;
+    flex-direction: row;
+    text-align: center;
+}
+
+.HomeBtn {
+    display: center;
+    flex-direction: row;
+
+}
